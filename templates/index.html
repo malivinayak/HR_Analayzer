@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Analyzer</title>
+    <style>
+        body {
+            align-items: center;
+            background-color: #9fafca;
+            display: flex;
+            justify-content: center;
+            height: 200vh;
+        }
+        
+        .form {
+            background-color: #0e387a;
+            border-radius: 20px;
+            box-sizing: border-box;
+            height: 1300px;
+            padding: 20px;
+            width: 520px;
+        }
+        
+        .title {
+            margin: auto;
+            width: 30%;
+            color: rgb(217, 242, 194);
+            font-family: sans-serif;
+            font-size: 30px;
+            font-weight: 600;
+            margin-top: 30px;
+        }
+        
+        .subtitle {
+            margin: auto;
+            width: 40%;
+            color: #eee;
+            font-family: sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            margin-top: 2px;
+        }
+        
+        .subtitleHR {
+            color: rgb(212, 222, 102);
+            font-family: sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 10px;
+            align-items: center;
+        }
+        
+        .subsub {
+            color: rgb(209, 200, 200);
+            font-family: sans-serif;
+            font-size: 18px;
+            font-weight: 450;
+            margin-top: 10px;
+        }
+        
+        .UForm {
+            color: #eee;
+            font-family: sans-serif;
+            font-size: 19px;
+            font-weight: 400;
+            margin-top: 12px;
+        }
+        
+        .submitbtn {
+            color: rgb(134, 103, 230);
+            font-family: sans-serif;
+            font-size: 19px;
+            font-weight: 500;
+            margin-top: 13px;
+        }
+        
+        .prediction {
+            color: rgb(222, 119, 172);
+            font-family: sans-serif;
+            font-size: 19px;
+            font-weight: 600;
+            margin-top: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form">
+        <div class="title">Welcome</div>
+
+        <div class="subtitle">Data Analytics Mini Project</div>
+        <div class="subtitleHR">HR Analyzer</div>
+        <div class="subsub">Predicat that you can be HR or not </div>
+
+        <!-- 'department': [3], 
+     'region': [24],
+     'gender': [0], 
+     'recruitment_channel': [3],
+     'no_of_trainings': [1], 
+     'age': [25], 
+     'previous_year_rating': [1.0], 
+     'length_of_service': [0], 
+     'KPIs_met >80%': [0],
+     'awards_won?': [0], 
+     'avg_training_score': [10] -->
+
+        <form action="/" method="POST" class="UForm">
+            <fieldset>
+                <legend>Info Collector:</legend>
+
+
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter Your name" size="40"><br><br>
+
+                <label for="department">Department:</label><br>
+                <input list="department" name="department" placeholder="Enter Your Department" size="40">
+                <datalist id="department">
+              <option value="Sales & Marketing">
+              <option value="Operations">
+              <option value="Technology">
+              <option value="Procurement">
+              <option value="Analytics">
+              <option value="Finance">
+              <option value="HR">
+              <option value="Legal">
+              <option value="R&D">
+            </datalist><br><br>
+
+
+                <label for="region">Region Number (1-34) :</label><br>
+                <input type="number" id="region" name="region" placeholder="Enter Region Number(1-34)" size="30"><br><br>
+
+                <label for="gender">Gender:</label><br>
+                <input list="gender" name="gender" placeholder="Gender" size="40">
+                <datalist id="gender">
+              <option value="Male">
+              <option value="Female">
+            </datalist><br><br>
+
+                <label for="education">Education:</label><br>
+                <input list="education" name="education" placeholder="education" size="40">
+                <datalist id="education">
+              <option value="Bachelor's">
+              <option value="Master's & above">
+              <option value="Below Secondary">
+            </datalist><br><br>
+
+                <label for="recruitment_channel">Recruitment channel:</label><br>
+                <input list="recruitment_channel" name="recruitment_channel" placeholder="Select Your recruitment channel" size="40">
+                <datalist id="recruitment_channel">
+              <option value="sourcing">
+              <option value="referred">
+              <option value="other">
+            </datalist><br><br>
+
+                <label for="no_of_trainings">Number of trainings(1-10): </label><br>
+                <input type="number" id="no_of_trainings" name="no_of_trainings" placeholder="Enter Number of trainings" size="40"><br><br>
+
+                <label for="age">Age: </label><br>
+                <input type="number" id="age" name="age" placeholder="Enter your Age"><br><br>
+
+                <label for="previous_year_rating">Previous Year Rating(1-10): </label><br>
+                <input type="number" id="previous_year_rating" name="previous_year_rating" placeholder="Enter your Previous Year Rating" size="40"><br><br>
+
+                <label for="length_of_service">Length of Service in months: </label><br>
+                <input type="number" id="length_of_service" name="length_of_service" placeholder="Enter your Length of Service" size="40"><br><br>
+
+                <label for="KPIs_met">KPIs_met:</label><br>
+                <input list="KPIs_met" name="KPIs_met" placeholder="KPIs_met" size="40">
+                <datalist id="KPIs_met">
+              <option value="More than 80%">
+              <option value="Less than 80%">
+            </datalist><br><br>
+
+                <label for="awards_won">Number of Awadrs Won: </label><br>
+                <input type="number" id="awards_won" name="awards_won" placeholder="Enter your Number of Awadrs Won" size="40"><br><br>
+
+                <label for="avg_training_score">Average Traing Score (1-100): </label><br>
+                <input type="number" id="avg_training_score" name="avg_training_score" placeholder="Enter your Average Traing Score" size="40"><br><br>
+
+
+                <input type="submit" value="Submit" class="submitbtn">
+            </fieldset>
+        </form>
+
+        <div class="prediction">
+            {% if n %}
+            <h3>{{n}}</h3>
+            {% endif %}
+
+        </div>
+    </div>
+
+</body>
+
+</html>

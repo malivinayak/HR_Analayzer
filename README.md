@@ -21,19 +21,19 @@ https://lnkd.in/dJEDMAsH
 
 
 📃𝐃𝐚𝐭𝐚𝐬𝐞𝐭 𝐃𝐞𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧📃
-𝒏𝒂𝒎𝒆 - Name of employee
-𝒅𝒆𝒑𝒂𝒓𝒕𝒎𝒆𝒏𝒕 - Department of employee
-𝒓𝒆𝒈𝒊𝒐𝒏 - Region of employment
-𝒆𝒅𝒖𝒄𝒂𝒕𝒊𝒐𝒏 - Education Level
-𝒈𝒆𝒏𝒅𝒆𝒓 - Gender of Employee
-𝒓𝒆𝒄𝒓𝒖𝒊𝒕𝒎𝒆𝒏𝒕 𝒄𝒉𝒂𝒏𝒏𝒆𝒍- Channel of recruitment
-𝒏𝒐 𝒐𝒇 𝒕𝒓𝒂𝒊𝒏𝒊𝒏𝒈𝒔 - no of other trainings completed in previous year on soft skills, technical skills etc.
-𝒂𝒈𝒆 - Age of Employee
-𝒑𝒓𝒆𝒗𝒊𝒐𝒖𝒔 𝒚𝒆𝒂𝒓 𝒓𝒂𝒕𝒊𝒏𝒈 - Employee Rating for the previous year
-𝒍𝒆𝒏𝒈𝒕𝒉 𝒐𝒇 𝒔𝒆𝒓𝒗𝒊𝒄𝒆 - Length of service in years
-𝑲𝑷𝑰𝒔 𝒎𝒆𝒕 >80% - if Percent of KPIs >80% then 1 else 0
-𝒂𝒘𝒂𝒓𝒅𝒔 𝒘𝒐𝒏? - if awards won during previous year then 1 else 0
-𝒂𝒗𝒈 𝒕𝒓𝒂𝒊𝒏𝒊𝒏𝒈 𝒔𝒄𝒐𝒓𝒆 - Average score in current training evaluations
+𝒏𝒂𝒎𝒆 - Name of employee<br>
+𝒅𝒆𝒑𝒂𝒓𝒕𝒎𝒆𝒏𝒕 - Department of employee<br>
+𝒓𝒆𝒈𝒊𝒐𝒏 - Region of employment<br>
+𝒆𝒅𝒖𝒄𝒂𝒕𝒊𝒐𝒏 - Education Level<br>
+𝒈𝒆𝒏𝒅𝒆𝒓 - Gender of Employee<br>
+𝒓𝒆𝒄𝒓𝒖𝒊𝒕𝒎𝒆𝒏𝒕 𝒄𝒉𝒂𝒏𝒏𝒆𝒍- Channel of recruitment<br>
+𝒏𝒐 𝒐𝒇 𝒕𝒓𝒂𝒊𝒏𝒊𝒏𝒈𝒔 - no of other trainings completed in previous year on soft skills, technical skills etc.<br>
+𝒂𝒈𝒆 - Age of Employee<br>
+𝒑𝒓𝒆𝒗𝒊𝒐𝒖𝒔 𝒚𝒆𝒂𝒓 𝒓𝒂𝒕𝒊𝒏𝒈 - Employee Rating for the previous year<br>
+𝒍𝒆𝒏𝒈𝒕𝒉 𝒐𝒇 𝒔𝒆𝒓𝒗𝒊𝒄𝒆 - Length of service in years<br>
+𝑲𝑷𝑰𝒔 𝒎𝒆𝒕 >80% - if Percent of KPIs >80% then 1 else 0<br>
+𝒂𝒘𝒂𝒓𝒅𝒔 𝒘𝒐𝒏? - if awards won during previous year then 1 else 0<br>
+𝒂𝒗𝒈 𝒕𝒓𝒂𝒊𝒏𝒊𝒏𝒈 𝒔𝒄𝒐𝒓𝒆 - Average score in current training evaluations<br>
 
 👨‍💻𝑻𝒆𝒄𝒉𝒏𝒐𝒍𝒐𝒈𝒊𝒆𝒔/𝑳𝒂𝒏𝒈𝒖𝒂𝒈𝒆𝒔:
 Python, Flask, Logistic Regression, Data Analytics, HTML, CSS, Git, Heroku, etcc
